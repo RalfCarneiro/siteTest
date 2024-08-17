@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce de Roupas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Loja de Roupas</h1>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar produtos...">
+            <button onclick="searchProducts()">Buscar</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="filters">
+            <h2>Filtros</h2>
+            <label for="categoryFilter">Categoria:</label>
+            <select id="categoryFilter" onchange="filterProducts()">
+                <option value="all">Todos</option>
+                <option value="tshirts">Camisetas</option>
+                <option value="jeans">Jeans</option>
+                <option value="jackets">Jaquetas</option>
+            </select>
+        </section>
+
+        <section class="product-list">
+            <h2>Produtos</h2>
+            <div id="productsContainer"></div>
+        </section>
+
+        <section class="cart">
+            <h2>Carrinho de Compras</h2>
+            <div id="cartItems"></div>
+            <button onclick="finalizePurchase()">Finalizar Compra</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
