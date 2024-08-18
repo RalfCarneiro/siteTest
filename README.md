@@ -42,7 +42,7 @@ nginx.conf: Arquivo de configuração do Nginx.
 - 7° - Abra um Pull Request.
 
 # Tecnologias:
-o Framework: Cypress, Selenium, Robot ou Playwright.
+o Framework: </br:> Cypress, </br:> Selenium, </br:> Robot </br:> Playwright.
 
 
 ## Readme
