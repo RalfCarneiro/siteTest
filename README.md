@@ -42,8 +42,11 @@ nginx.conf: Arquivo de configuração do Nginx.
 - 7° - Abra um Pull Request.
 
 # Tecnologias:
-o Framework: </br:> Cypress, </br:> Selenium, </br:> Robot </br:> Playwright.
-
+o Framework: 
+- Cypress, 
+- Selenium,
+- Robot
+- Playwright.
 
 ## Readme
 O documento deve com orientações de como instalar o ambiente e executar os testes, assim como os cenários e o objetivo dos testes automatizados.
