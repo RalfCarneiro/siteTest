@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra</title>
+    <link id="themeStylesheet" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Finalizar Compra</h1>
+        <button id="themeToggleBtn" onclick="toggleTheme()">Modo Escuro</button>
+    </header>
+
+    <main>
+        <section id="checkoutSummary">
+            <!-- O resumo da compra será carregado aqui pelo JavaScript -->
+        </section>
+        <div class="checkout-buttons">
+            <button class="confirm" onclick="confirmPurchase()">Confirmar Compra</button>
+            <button class="cancel" onclick="cancelCheckout()">Cancelar</button>
+        </div>
+    </main>
+
+    <script src="checkout.js"></script>
+    <script src="script.js"></script> <!-- Inclua o script.js para a função toggleTheme -->
+</body>
+</html>

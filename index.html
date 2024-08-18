@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce de Roupas</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Projeto para automação de testes</title>
+    <link id="themeStylesheet" rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Loja de Roupas</h1>
+        <h1>Geek QA Gear</h1>
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="Buscar produtos...">
             <button onclick="searchProducts()">Buscar</button>
         </div>
+        <button id="themeToggleBtn" onclick="toggleTheme()">Modo Escuro</button>
     </header>
 
     <main>
@@ -21,21 +22,28 @@
             <label for="categoryFilter">Categoria:</label>
             <select id="categoryFilter" onchange="filterProducts()">
                 <option value="all">Todos</option>
-                <option value="tshirts">Camisetas</option>
-                <option value="jeans">Jeans</option>
-                <option value="jackets">Jaquetas</option>
+                <option value="clothing">Camisetas</option>
+                <option value="decor">Luminárias</option>
+                <option value="posters">Posters</option>
+                <option value="toys">Action Figures</option>
+                <option value="bags">Bolsas</option>
+                <option value="puzzles">Quebra-Cabeças</option>
+                <option value="mugs">Canecas</option>
+                <option value="accessories">Acessórios</option>
+                <option value="books">Livros</option>
             </select>
         </section>
 
         <section class="product-list">
             <h2>Produtos</h2>
             <div id="productsContainer"></div>
+            <div id="pagination"></div> <!-- Contêiner de navegação -->
         </section>
 
         <section class="cart">
             <h2>Carrinho de Compras</h2>
             <div id="cartItems"></div>
-            <button onclick="finalizePurchase()">Finalizar Compra</button>
+            <a href="checkout.html" id="finalizePurchaseLink"><button>Finalizar Compra</button></a> <!-- Redireciona para checkout.html -->
         </section>
     </main>
 
