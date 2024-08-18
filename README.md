@@ -1,6 +1,6 @@
 # Geek QA Gear
 
-Este é um projeto de e-commerce para testes automatizados que utiliza Docker para facilitar o desenvolvimento e a execução.
+Este é um projeto para fins de testes automatizados que utiliza Docker para facilitar o desenvolvimento e a execução.
 
 ## Requisitos
 
