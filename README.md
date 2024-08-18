@@ -33,13 +33,13 @@ Dockerfile: Arquivo de configuração para criar a imagem Docker.
 nginx.conf: Arquivo de configuração do Nginx.
 
 ## Para realizar os testes:
-1° - Faça um fork do repositório.
-2° - Necessário a escrita dos casos de testes.
-3° - Crie uma branch para seus testes.
-4° - Faça suas alterações
-5° - Faça um push para a branch
-6° - Faça um fork do repositório.
-7° - Abra um Pull Request.
+- 1° - Faça um fork do repositório.
+- 2° - Necessário a escrita dos casos de testes.
+- 3° - Crie uma branch para seus testes.
+- 4° - Faça suas alterações
+- 5° - Faça um push para a branch
+- 6° - Faça um fork do repositório.
+- 7° - Abra um Pull Request.
 
 # Tecnologias:
 o Framework: Cypress, Selenium, Robot ou Playwright.
