@@ -92,8 +92,8 @@ main {
 }
 
 .product-item button:hover {
-    transform: translateY(-3px); /* Move o botão ligeiramente para cima */
-    background-color: #bd93f9; /* Altera a cor do fundo ao passar o mouse */
+    transform: translateY(-3px);
+    background-color: #bd93f9; 
 }
 
 .cart {
@@ -136,4 +136,3 @@ main {
 .checkout button.cancel {
     background-color: #ff5555;
 }
-

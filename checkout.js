@@ -18,10 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function confirmPurchase() {
     alert('Compra confirmada!');
-    localStorage.removeItem('cart'); // Limpa o carrinho
-    window.location.href = 'index.html'; // Redireciona para a página inicial
+    localStorage.removeItem('cart'); 
+    window.location.href = 'index.html';
 }
 
 function cancelCheckout() {
-    window.location.href = 'index.html'; // Redireciona para a página inicial
+    window.location.href = 'index.html'; 
 }

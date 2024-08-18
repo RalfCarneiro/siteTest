@@ -67,8 +67,8 @@ main {
 }
 
 .product-item button:hover {
-    transform: translateY(-3px); /* Move o botão ligeiramente para cima */
-    background-color: #0056b3; /* Altera a cor do fundo ao passar o mouse */
+    transform: translateY(-3px); 
+    background-color: #0056b3; 
 }
 
 .cart {
@@ -79,8 +79,8 @@ main {
     position: fixed;
     right: 20px;
     top: 80px;
-    max-height: 300px; /* Altura máxima para a rolagem */
-    overflow-y: auto; /* Adiciona a rolagem vertical */
+    max-height: 300px; 
+    overflow-y: auto;
 }
 
 .cart-item {
