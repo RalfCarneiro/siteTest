@@ -11,6 +11,7 @@ Este é um projeto para fins de testes automatizados que utiliza Docker para fac
 ### 1. Clone o Repositório
 Abra o terminal do VS Code (ou qualquer terminal) e clone o repositório.
 - git clone https://github.com/RalfCarneiro/siteTest.git
+- acesse a raiz do projeto
 
 ### 2. Construa e Inicie os Contêineres
 No terminal do VS Code, execute o seguinte comando para construir e iniciar os contêineres:
